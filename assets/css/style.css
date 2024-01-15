@@ -807,6 +807,7 @@ section .container {
   background: rgba(204, 204, 204, 0.1);
   padding: 50px 20px;
   transition: all ease-in-out 0.3s;
+  contain:content;
 }
 
 .certificates .icon-box .icon {
@@ -821,6 +822,7 @@ section .container {
   justify-content: center;
   margin-bottom: 20px;
   transform-style: preserve-3d;
+  
 }
 
 .certificates .icon-box .icon img {
@@ -859,7 +861,7 @@ section .container {
 .certificates .icon-box a h5 {
   line-height: 24px;
   font-size: 20px;
-  margin-bottom: 0;
+  margin-bottom: 3px;
   font-style: italic;
   font-weight: bold;
   color: #fff;
